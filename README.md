@@ -12,3 +12,7 @@ HTML, CSS, JS, Django, Postgresql
 3. Ability to leave Project Reviews and Messaging other users
 4. Search Feature for projects and Developers
 5. Password reset through Email
+
+**screenshots :**
+
+![screenshot](/screenshots/form.png?raw=true "Optional Title")
