@@ -15,4 +15,14 @@ HTML, CSS, JS, Django, Postgresql
 
 **screenshots :**
 
+![screenshot](/screenshots/login.png?raw=true "Optional Title")
+
+![screenshot](/screenshots/developers.png?raw=true "Optional Title")
+
+![screenshot](/screenshots/projects.png?raw=true "Optional Title")
+
+![screenshot](/screenshots/account.png?raw=true "Optional Title")
+
 ![screenshot](/screenshots/form.png?raw=true "Optional Title")
+
+![screenshot](/screenshots/vote.png?raw=true "Optional Title")
