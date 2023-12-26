@@ -1,0 +1,27 @@
+{% extends "main.html" %}
+
+
+{% block content %}
+
+{% load static %}
+<main class="messagePage my-xl">
+  <div class="content-box">
+    <div class="message">
+      {% comment %} <a class="backButton" href="{{request.GET.next}}"><i class="im im-angle-left"></i></a> {% endcomment %}
+      <a class="backButton" href="{{request.GET.next}}"><img src="{% static "images/backbutton.png" %}" alt=""></a>
+      <h2 class="message__subject">{{message.subject}}</h4>
+        {% if message.sender %}
+            <span class="message__author"><a href="{% url "user-profile" message.sender.id %}">{{message.sender.name}}</a></span>
+            {% else %}
+            <span class="message__author">{{message.name}}</span>
+            {% endif %}
+        {% comment %} <a href="profile.html" class="message__author">{{message.sender}}</a> {% endcomment %}
+        <p class="message__date">{{message.created}}</p>
+        <div class="message__body">
+          {{message.body}}
+        </div>
+    </div>
+  </div>
+</main>
+{% endblock content %}
+  
